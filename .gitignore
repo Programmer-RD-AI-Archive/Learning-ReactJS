@@ -126,3 +126,4 @@ dist
 .yarn/install-state.gz
 .pnp.*
 /1/.history
+/2/.history
