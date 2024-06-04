@@ -1,4 +1,4 @@
-import { Route, Routes, Link, useRoutes } from "react-router-dom";
+import { Route, Routes, Link, useRoutes, useLocation } from "react-router-dom";
 import Home from "./pages/Home";
 import BookList from "./pages/BookList";
 import Book from "./pages/Book";
@@ -18,6 +18,7 @@ function App() {
       ],
     },
   ]);
+  const location = useLocation();
   return (
     <>
       <nav>
