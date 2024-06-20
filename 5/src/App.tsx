@@ -1,12 +1,7 @@
-import React from 'react';
-import './App.css'
-import { Greet } from './components/Greet';
+import React from "react";
+import "./App.css";
 function App() {
-  return (
-    <div className="App">
-      <Greet name='Ranuga'/>
-    </div>
-  );
+  return <div className="App"></div>;
 }
 
 export default App;
